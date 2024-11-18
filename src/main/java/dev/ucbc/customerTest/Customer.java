@@ -3,11 +3,9 @@ package dev.ucbc.customerTest;
 public class Customer {
 
 	private String customerCode;
-	private String fullName;
 	
-	public Customer(String customerCode, String fullName) {
+	public Customer(String customerCode) {
 		this.customerCode = customerCode;
-		this.fullName = fullName;
 	}
 
 	public String getCustomerCode() {
@@ -16,14 +14,6 @@ public class Customer {
 
 	public void setCustomerCode(String customerCode) {
 		this.customerCode = customerCode;
-	}
-
-	public String getFullName() {
-		return fullName;
-	}
-
-	public void setFullName(String fullName) {
-		this.fullName = fullName;
 	}
 	
 }
